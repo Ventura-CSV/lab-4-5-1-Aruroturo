@@ -3,7 +3,7 @@ def main():
     total = 0
     numbers = []
     count = 0
-    while total < 5:
+    while count < 5:
         random_num = random.randint(0, 100)
         numbers.append(random_num)
         total += random_num
