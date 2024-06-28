@@ -1,13 +1,13 @@
 import random
-
-
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
+    total = 0
+    numbers = []
+    count = 0
+    while total < 5:
+        random_num = random.randint(0, 100)
+        numbers.append(random_num)
+        total += random_num
+        count += 1
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
